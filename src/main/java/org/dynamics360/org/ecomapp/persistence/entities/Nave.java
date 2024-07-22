@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
  * Nave is an entity that represents a Nave in the e-commerce system.
  * It contains information about the Nave, such as its ID, nombre, pelicula, price, and quantity.
  *
- * @author andyserrato
+ * @author juanpablogonzalez
  */
  @Entity
 public class Nave {
