@@ -8,7 +8,7 @@ import org.springframework.data.domain.PageRequest;
 /**
  * NaveService is an interface that provides business logic for managing Naves in the e-commerce system.
  * It defines methods for creating, retrieving, updating, and deleting Naves.
- * @author andyserrato
+ * @author juanpablogonzalez
  */
 public interface NaveService {
 
