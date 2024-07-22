@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "dac4f196-78ea-4ee1-b457-dff56f292256",
+		"name": "mindata_w2m",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7705963"
+	},
+	"item": [
+		{
+			"name": "works",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/ships/test",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ships",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ships",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQ1VTVE9NRVIiLCJwZXJtaXNzaW9ucyI6W3siYXV0aG9yaXR5IjoiUkVBRF9BTExfUFJPRFVDVCJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DVVNUT01FUiJ9XSwibmFtZSI6ImpwMiIsInN1YiI6ImpwMiIsImlhdCI6MTcyMTIxODA3NSwiZXhwIjoxNzIxMjE5ODc1fQ.0PHvK91YkaGzl8JagAF3sMI0DbUsha3AElw1c-i_H8M",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/ships",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ships"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ships",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQ1VTVE9NRVIiLCJwZXJtaXNzaW9ucyI6W3siYXV0aG9yaXR5IjoiUkVBRF9BTExfUFJPRFVDVCJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DVVNUT01FUiJ9XSwibmFtZSI6ImpwMiIsInN1YiI6ImpwMiIsImlhdCI6MTcyMTIxODA5MCwiZXhwIjoxNzIxMjE5ODkwfQ.r81lbfE0GGssYQiWJfId2tIwRqhapNbW0dIqJJE8PnY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"jp\",\n    \"email\": \"jp\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/users",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shipsById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQ1VTVE9NRVIiLCJwZXJtaXNzaW9ucyI6W3siYXV0aG9yaXR5IjoiUkVBRF9BTExfUFJPRFVDVCJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DVVNUT01FUiJ9XSwibmFtZSI6ImpwMiIsInN1YiI6ImpwMiIsImlhdCI6MTcyMTIxODA5MCwiZXhwIjoxNzIxMjE5ODkwfQ.r81lbfE0GGssYQiWJfId2tIwRqhapNbW0dIqJJE8PnY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/ships/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ships",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ships",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQ1VTVE9NRVIiLCJwZXJtaXNzaW9ucyI6W3siYXV0aG9yaXR5IjoiUkVBRF9BTExfUFJPRFVDVCJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DVVNUT01FUiJ9XSwibmFtZSI6ImpwMiIsInN1YiI6ImpwMiIsImlhdCI6MTcyMTIxODA5MCwiZXhwIjoxNzIxMjE5ODkwfQ.r81lbfE0GGssYQiWJfId2tIwRqhapNbW0dIqJJE8PnY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ship\": \"jp1\",\n    \"movie\": \"jp1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/ships/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ships",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ships",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQ1VTVE9NRVIiLCJwZXJtaXNzaW9ucyI6W3siYXV0aG9yaXR5IjoiUkVBRF9BTExfUFJPRFVDVCJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DVVNUT01FUiJ9XSwibmFtZSI6ImpwMiIsInN1YiI6ImpwMiIsImlhdCI6MTcyMTIxODA5MCwiZXhwIjoxNzIxMjE5ODkwfQ.r81lbfE0GGssYQiWJfId2tIwRqhapNbW0dIqJJE8PnY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"jp\",\n    \"email\": \"jp\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/ships?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ships"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
