@@ -5,7 +5,7 @@ import org.dynamics360.org.ecomapp.persistence.entities.Nave;
 
 /**
  * The NaveMapper class handles the mapping between Nave entity and the Nave DTO
- * @author andyserrato
+ * @author Juan Pablo Gonzalez
  */
 public class NaveMapper {
 
